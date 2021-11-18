@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Chatbox-Clone</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+
+<body>
+    <div id="chat-box" class="container">
+    
+        <div class="head">
+    
+            <div>
+            <a href="#" class="tooltip">
+                <img class="profile-pic" src="./images/dp.jpg" alt="profile-picture">
+                <span>Muhammad Faizan</span>
+            </a>
+                <div class="dot"></div>
+                <h2>Muhammad Faizan</h2>
+                <h3>Active now</h3>
+            </div>
+    
+            <div class="head-icons">
+                <i class="fa-solid fa-video" title="start a video chat"></i>
+                <i class="fa-solid fa-phone" title="start a voice call"></i>
+                <i class="fa-solid fa-gear" ></i>
+                <div class="setting-menu">
+                    <ul>
+                        <li><span><i class="fa-brands fa-facebook-messenger"></i></span><a href="#">Open in Messenger</a></li>
+                        <hr/>
+                        <li><span><i class="fa-solid fa-palette"></i></span><a href="#">Color</a></li>
+                        <li><span><i class="fa-solid fa-thumbs-up"></i></span><a href="#">Emoji</a></li>
+                        <hr/>
+                        <li><span><i class="fa-solid fa-trash-can"></i></span><a href="#">Delete the conversation</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-xmark" title="close chat"></i>
+    
+    
+    
+            </div>
+        </div>
+    
+        <div class="msg-body">
+    
+            <div class="person1">
+
+                <a href="#" class="tooltip">
+                    <img src="./images/dp.jpg" alt="profile-picture">
+                    <span>Muhammad Faizan</span>
+                </a>
+                <div class="dot-2"></div>
+                <div id="user1">Hi</div>
+            </div>
+            <div id="user2">Hello</div>
+            <div class="person1">
+                
+                <a href="#" class="tooltip">
+                    <img src="./images/dp.jpg" alt="profile-picture">
+                    <span>Muhammad Faizan</span>
+                </a>
+                <div class="dot-2"></div>
+                <div id="user1">How are you?</div>
+            </div>
+            <div id="user2">I am good</div>
+            <div class="person1">
+                
+                <a href="#" class="tooltip">
+                    <img src="./images/dp.jpg" alt="profile-picture">
+                    <span>Muhammad Faizan</span>
+                </a>
+                <div class="dot-2"></div>
+                <div id="user1">I need a favour from you can you send me the details of last assignment that was given by
+                    Maam</div>
+            </div>
+            <div id="user2">
+                Ok! I will send you the pics.
+            </div>
+            
+
+            <div class="forward"> <i class="fa-solid fa-share"></i></div>
+            <div id="sender">
+               
+                <img src="./images/mid-content.jpg" width="230" height="230" />
+            </div>
+    
+            <div class="seen-msg">
+                <h5>&#10004; Seen 10:45 AM</h5>
+            </div>
+    
+    
+    
+    
+        </div>
+        <div class="textarea">
+    
+            <form id="">
+                <textarea id="text" placeholder="Type a message..." ></textarea>
+            </form>
+    
+            <div class="textarea-icons">
+    
+                <i class="fa-solid fa-image" title="Attach a photo or video"></i>
+                <i class="fa-solid fa-face-smile" title="emoji"></i>
+                <i class="fa-solid fa-paperclip" title="Attach a file"></i>
+                <i class="fa-solid fa-camera" title="camera"></i>
+                <i class="fas fa-paper-plane" title="send"></i>
+                <i class="fa-solid fa-thumbs-up" title="send a like"></i>
+    
+    
+    
+            </div>
+        </div>
+    </div>
+
+
+    
+
+
+
+
+
+
+<!--     <button id="open-btn" class="btn" onclick="openChat()">Open</button>
+    <button id="close-btn" class="btn btn-2" onclick="closeChat()">Close</button> -->
+
+    <script src="app.js"></script>
+</body>
+
+</html>
